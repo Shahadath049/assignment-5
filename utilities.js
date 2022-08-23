@@ -9,4 +9,13 @@ function selectPlayerById ( nameId,btnId){
 
     const btnName = document.getElementById(btnId);
     btnName.setAttribute('disabled',true);
-}
+
+    const parent = document.getElementById('list-container');
+    let childNodes = parent.childNodes;
+    if(childNodes.length === 7){
+        alert('You Cannot add more than 5 players');
+        
+    }
+    
+
+ }

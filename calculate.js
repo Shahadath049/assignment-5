@@ -3,6 +3,7 @@
 
 document.getElementById('messi-btn').addEventListener('click',function(){
     selectPlayerById("messi-name","messi-btn");
+
     
 })
 document.getElementById('sanches-btn').addEventListener('click',function(){
@@ -28,7 +29,10 @@ document.getElementById('neymar-btn').addEventListener('click',function(){
 document.getElementById('ramos-btn').addEventListener('click',function(){
     selectPlayerById("ramos-name","ramos-btn");
     
-    
+   
+
 })
 
-document
+
+ 
+
