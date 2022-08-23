@@ -13,10 +13,14 @@ function selectPlayerById ( nameId,btnId){
     let parents = document.querySelectorAll(".item");
     let parentsLength = parents.length;
     
+   
     if( parentsLength === 6){
-        alert ('ami vlo onl')
-     const listRemove = addSelected.lastElementChild.parents;
-          
+        alert ('You can not add more than 5 players')
+    
+        const remove = document.querySelector(".item")
+    // remove.lastChild.style.display = 'none';
+        remove.parentNode.removeChild(remove);
+        
     }
    
 

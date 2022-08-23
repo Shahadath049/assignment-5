@@ -2,8 +2,9 @@
 //add selected player
 
 document.getElementById('messi-btn').addEventListener('click',function(){
-    selectPlayerById("messi-name","messi-btn");
-
+    const all = selectPlayerById("messi-name","messi-btn");
+    
+    
     
 
     
